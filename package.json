@@ -1,0 +1,44 @@
+{
+    "name": "@js-factory/perfbudgetwebpackplugin",
+    "version": "1.0.0",
+    "description": "Webpack plugin to set budget on individual file",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "jest",
+        "test-only": "jest",
+        "test:watch": "jest --watch"
+    },
+    "jest": {
+        "verbose": true,
+        "collectCoverage": true,
+        "collectCoverageFrom": [
+            "*.js",
+            "utils/*.js"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/js-factory/PerfBudgetWebpackPlugin.git"
+    },
+    "keywords": [
+        "webpack",
+        "plugin",
+        "performance-budget"
+    ],
+    "author": "js-factory",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/js-factory/PerfBudgetWebpackPlugin/issues"
+    },
+    "homepage": "https://github.com/js-factory/PerfBudgetWebpackPlugin#readme",
+    "devDependencies": {
+        "babel-eslint": "^8.2.6",
+        "eslint": "^4.10.0",
+        "eslint-config-airbnb-base": "^13.0.0",
+        "eslint-plugin-import": "^2.13.0",
+        "eslint-plugin-jest": "^21.17.0",
+        "jest": "^23.4.0"
+    }
+}
