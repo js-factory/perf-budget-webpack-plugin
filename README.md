@@ -5,7 +5,7 @@ Installation
 ------------
 Install the plugin with npm:
 ```shell
-$ npm install @jabong/perf-budget-webpack-plugin --save-dev
+$ npm install --save-dev @jabong/perf-budget-webpack-plugin
 ```
  
 Basic Usage
