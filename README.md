@@ -36,3 +36,11 @@ Need
 -----------
 
 Performance budget requires to set the budget on important files separately. Here, we can set that individually based on js as well as css.
+
+## Author
+
+  [js-factory](https://github.com/js-factory)
+
+## License
+
+  [MIT](LICENSE)
