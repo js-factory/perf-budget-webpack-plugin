@@ -23,8 +23,8 @@ class PerfBudgetWebpackPlugin {
      *  Object represents a single build of versioned assets
      */
     budgeting(compiler, compilation) {
-        compilation.chunks.forEach(({ id, files }) => {
-            const { options: { [id]: budget} } = this;
+        compilation.chunks.forEach(({ name, files }) => {
+            const { options: { [name]: budget} } = this;
             if (!budget) return;
             files.forEach((fileName) => {
                 const {[getExtension(fileName)]: size} = budget;
@@ -33,7 +33,7 @@ class PerfBudgetWebpackPlugin {
                     if (fileSize > size) {
                         compilation.errors.push(
                             new Error(`PerfBudgetWebpackPlugin:
-                                ${id} - ${fileName} - File Size (${fileSize}) exceeds then expected ${size}
+                                ${name} - ${fileName} - File Size (${fileSize}) exceeds then expected ${size}
                             `)
                         )
                     }
