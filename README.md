@@ -1,5 +1,5 @@
-# PerfBudgetWebpackPlugin
-Webpack plugin to set budget on individual file
+# Performance Budget Webpack Plugin
+Webpack plugin to set budget on individual bundle file.
 
 Installation
 ------------
