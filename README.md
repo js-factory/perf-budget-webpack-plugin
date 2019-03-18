@@ -24,8 +24,14 @@ const webpackConfig = {
   plugins: [
     new PerfBudgetWebpackPlugin({
         bundle: {
-          js: 10000,
-          css: 1000
+          js: 20000,
+          css: 1000 // CSS Extracted using extract plugin
+        },
+        dynamicImportName1: {
+          js: 10000 // Size in bytes
+        },
+        dynamicImportName2: {
+          js: 10000 // Size in bytes
         }
     })
   ]
@@ -35,7 +41,8 @@ const webpackConfig = {
 Need
 -----------
 
-Performance budget requires to set the budget on important files separately. Here, we can set that individually based on js as well as css.
+Performance budget requires to set the budget on important files separately. 
+Here, we can set that individually based on js as well as css.
 
 ## Author
 
