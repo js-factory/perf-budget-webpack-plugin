@@ -39,6 +39,8 @@ const webpackConfig = {
 ```
 ## Example
 
+[Performance Budget Example](https://github.com/js-factory/examples/tree/master/perf-budget-webpack-plugin)
+
 <p align="center">
     <img alt="marvels" src="/error.png" height="200" width="650">
 </p>
