@@ -40,7 +40,7 @@ const webpackConfig = {
 ## Example
 
 <p align="center">
-    <img alt="marvels" src="/error.png" height="144" width="250">
+    <img alt="marvels" src="/error.png" height="144" width="550">
 </p>
 
 ## Need
