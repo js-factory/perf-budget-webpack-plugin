@@ -1,6 +1,6 @@
 {
     "name": "@js-factory/perf-budget-webpack-plugin",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Webpack plugin to set budget on individual file",
     "main": "index.js",
     "scripts": {
@@ -40,5 +40,10 @@
         "eslint-plugin-import": "^2.13.0",
         "eslint-plugin-jest": "^21.17.0",
         "jest": "^23.4.0"
+    },
+    "dependencies": {
+        "braces": "^3.0.2",
+        "handlebars": "^4.1.2",
+        "js-yaml": "^3.13.1"
     }
 }
